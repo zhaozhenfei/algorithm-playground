@@ -1,5 +1,7 @@
 package cartoon;
 
+import java.util.Arrays;
+
 /**
  * Created by zhenfei7 on 2024/4/23.
  */
@@ -34,8 +36,6 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 1, 4, 2, 5, 6, 11, 8, 9};
         quickSort(arr, 0, arr.length - 1);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
+        System.out.println(Arrays.toString(arr));
     }
 }
