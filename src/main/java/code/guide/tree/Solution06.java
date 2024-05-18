@@ -6,6 +6,10 @@ import java.util.Map;
 /**
  * Created by zhenfei7 on 2024/5/18.
  */
+
+/**
+ * 在二叉树中找到累加和为指定值的最长路径长度
+ */
 public class Solution06 {
     public static void main(String[] args) {
         Node head = new Node(-3);
