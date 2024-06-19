@@ -19,10 +19,9 @@ public class Solution24 {
 //        chars[0] = '1';
 //        System.out.println(String.valueOf(chars));
 
-//        System.out.println(getNumChiExp(319));
-//        System.out.println(getNumChiExp(1014));
+        System.out.println(getNumChiExp(319));
+        System.out.println(getNumChiExp(1014));
         System.out.println(getNumChiExp(7400741));
-
     }
 
     public static String getNumChiExp(Integer num) {
